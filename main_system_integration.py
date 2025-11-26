@@ -171,6 +171,7 @@ class UnifiedPipeline:
             
             return {
                 'vft_params': vft_params.cpu().numpy(),
+                'surface_params': surface_params.cpu().numpy(),
                 'viscosity_40': viscosity_40.cpu().numpy(),
                 'fuel_economy': fuel_economy.cpu().numpy(),
                 'stribeck': stribeck.cpu().numpy(),
